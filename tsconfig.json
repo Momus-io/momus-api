@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"target": "ES2021",
+		"moduleResolution": "node",
+        "module": "commonjs",
+		"sourceMap": true,
+		"composite": true,
+		"lib": ["ESNext"],
+		"strict": true,
+		"noImplicitAny": true,
+		"experimentalDecorators": true,
+		"isolatedModules": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": true,
+		"typeRoots": ["./node_modules/@types"]
+	}
+}
